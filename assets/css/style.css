@@ -11,8 +11,8 @@ body {
 }
 
 .container {
-   /* width:100%;
-    max-width:960px;*/
+   width:100%;
+    max-width:960px;
     margin: o auto;
     clear: both;
 }
@@ -47,7 +47,7 @@ h2, h3{
 /*header*/
 #mainHead {
     background:#fff;
-    /*margin: 0 0 30px;*/
+    margin: 0 0 30px;
     z-index: 99;
     color: #fff;
     overflow: auto;
@@ -72,13 +72,12 @@ h2, h3{
 
 }
 
-/* Portfolio */
-.work {
-    width:274px;
-    overflow: auto;
-    position: relative;
+/*Portfolio*/
+.image {
+    width:100px;
+    height: 200;
+    border: 200px;
     float: left;
-    margin:20px 0 25px;
 }
 
 .work:nth-child(even) {
@@ -97,7 +96,7 @@ h2, h3{
     line-height:30px;
     margin-bottom: 0;
     font-weight: 300;
-}
+}*/
 
 /* contact */
 #contact-form ul {
@@ -157,13 +156,6 @@ nav a:first-child {
     border-left:0 none;
 }
 
-#main-container {
-    clear: both;
-    width: 1080px;
-    padding-top:130px;
-    margin-left:50px;
-    
-}
 #main-container.container {background-color: #c0c0c0;}
 
 .main-section {
@@ -195,16 +187,17 @@ nav a:first-child {
 }
 .sidebar{
    background:#fff;
-   padding:30px;
+   /* padding:30px; */
    width:200px;
    max-width:270px;
-   float:right;
+   float:right; 
    border: 1px solid #ddd;
    margin-top: 20px;
-   margin-right: 40px;
+   margin-right: 40px; 
+   text-align:center;
 
 }
-#connect {width:200px;float: right;}
+#connect {width:200px;margin-right:40px}
 
 h3, .sidebar, h2 {
     border-bottom:2px solid #eee;
